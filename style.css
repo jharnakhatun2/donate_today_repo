@@ -136,3 +136,22 @@ button a{
     color: #8b8989;
     font-family: 'Poppins', sans-serif;
   }
+
+  /* Depend on donation style */
+  .depend-on-donation {
+    display: flex;
+    justify-content: center;
+}
+  .depend-on-donation-text {
+    width: 36%;
+    padding-right: 95px;
+}
+.depend-on-donation-image img{
+    border-radius: 7px;
+}
+
+/* Need for survive style */
+.need-for-survive-text{
+    width: 36%;
+    padding-left: 95px;
+}
