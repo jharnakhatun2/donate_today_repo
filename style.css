@@ -1,0 +1,72 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+}
+.container {
+    position: relative;
+}
+.container-margin{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.align-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+button{
+    padding: 14px 23px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin-top: 13px;
+    border: 0;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* header style */
+.header-background-image {
+    background-image: url("images/donation1.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 100vh;
+}
+.slide-content{
+    color: #fff; 
+    width: 100%;  
+}
+
+.slide-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 4rem;    
+}
+.slide-content p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+/* Donated Today style */
+.amount-tk{
+    display: flex;
+}
+.tk-style{
+    
+}
