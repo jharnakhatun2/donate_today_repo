@@ -6,25 +6,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header{
-    
-}
-.container {
-    position: relative;
-}
-.container-margin{
-    margin-top: 130px;
-    margin-bottom: 130px;
-}
-.align-content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 button{
     padding: 14px 23px;
     background-color: #FF5959;
@@ -37,14 +18,37 @@ button a{
     text-decoration: none;
     font-size: 18px;
 }
+.container-margin{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.title{
+ font-size: 45px;
+ color: #121212;
+}
+.paragraph-style{
+    color: #8b8989;
+    font-size: 18px;
+}
 
 /* header style */
+.container {
+    position: relative;
+}
 .header-background-image {
     background-image: url("images/donation1.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
     height: 100vh;
+}
+.align-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .slide-content{
     color: #fff; 
@@ -64,9 +68,42 @@ button a{
 
 
 /* Donated Today style */
+.donated-today{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 .amount-tk{
     display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin: -15px auto;
 }
-.tk-style{
-    
+.tk-style {
+    font-size: 30px;
+    padding: 36px 19px;
+    background-color: #FAFAFA;
+    color: #707070;
+    border-radius: 5px;
+    transition: .3s;
 }
+.tk-style:hover{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.tk-input input[type=text] {
+    width: 50%;
+    height: 27px;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+  }
+  .tk-input input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #B3B3B3;
+    font-size: 16px;
+  }
