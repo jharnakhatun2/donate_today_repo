@@ -1,5 +1,5 @@
 /* Google font link */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -29,6 +29,7 @@ button a{
 .paragraph-style{
     color: #8b8989;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* header style */
@@ -106,4 +107,32 @@ button a{
 ::placeholder {
     color: #B3B3B3;
     font-size: 16px;
+  }
+
+  /* Donate plan style */
+  .donate-plans {
+    display: flex;
+    padding: 0px 117px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.donate-single-plan {
+    text-align: left;
+    width: 27%;
+    padding: 47px 26px;
+    border-radius: 5px;
+}
+  .plan-one{
+    background-color: rgb(79, 157, 166, 10%);
+  }
+  .plan-two{
+    background-color: rgb(255, 89, 89, 10%);
+  }
+  .plan-three{
+    background-color: #FFF4D6;
+  }
+  .donatePlan-paragraph-style{
+    font-size: 16px;
+    color: #8b8989;
+    font-family: 'Poppins', sans-serif;
   }
