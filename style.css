@@ -1,32 +1,32 @@
 /* Google font link */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lobster&family=Poppins:wght@300;400&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
-button{
+button {
     padding: 14px 23px;
     background-color: #FF5959;
     border-radius: 5px;
     margin-top: 13px;
     border: 0;
 }
-button a{
+button a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
-.container-margin{
+.container-margin {
     margin-top: 130px;
     margin-bottom: 130px;
 }
-.title{
- font-size: 45px;
- color: #121212;
+.title {
+    font-size: 45px;
+    color: #121212;
 }
-.paragraph-style{
+.paragraph-style {
     color: #8b8989;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -51,17 +51,16 @@ button a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.slide-content{
-    color: #fff; 
-    width: 100%;  
+.slide-content {
+    color: #fff;
+    width: 100%;
 }
-
 .slide-content h1 {
     margin: 0;
     font-weight: 700;
-    font-size: 4rem;    
+    font-size: 4rem;
 }
-.slide-content p{
+.slide-content p {
     font-weight: 300;
     font-size: 17px;
     line-height: 1.5;
@@ -69,13 +68,13 @@ button a{
 
 
 /* Donated Today style */
-.donated-today{
+.donated-today {
     display: block;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-.amount-tk{
+.amount-tk {
     display: flex;
     justify-content: space-between;
     width: 58%;
@@ -89,7 +88,7 @@ button a{
     border-radius: 5px;
     transition: .3s;
 }
-.tk-style:hover{
+.tk-style:hover {
     background-color: #FFEEEE;
     color: #FF5959;
     border: 2px solid #FF5959;
@@ -100,17 +99,17 @@ button a{
     border: none;
     border-bottom: 2px solid #DADADA;
     text-align: center;
-  }
-  .tk-input input:focus {
+}
+.tk-input input:focus {
     outline: none;
 }
 ::placeholder {
     color: #B3B3B3;
     font-size: 16px;
-  }
+}
 
-  /* Donate plan style */
-  .donate-plans {
+/* Donate plan style */
+.donate-plans {
     display: flex;
     padding: 0px 117px;
     justify-content: space-between;
@@ -122,36 +121,83 @@ button a{
     padding: 47px 26px;
     border-radius: 5px;
 }
-  .plan-one{
+.plan-one {
     background-color: rgb(79, 157, 166, 10%);
-  }
-  .plan-two{
+}
+.plan-two {
     background-color: rgb(255, 89, 89, 10%);
-  }
-  .plan-three{
+}
+.plan-three {
     background-color: #FFF4D6;
-  }
-  .donatePlan-paragraph-style{
+}
+.donatePlan-paragraph-style {
     font-size: 16px;
     color: #8b8989;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-  /* Depend on donation style */
-  .depend-on-donation {
+/* Depend on donation style */
+.depend-on-donation {
     display: flex;
     justify-content: center;
 }
-  .depend-on-donation-text {
+.depend-on-donation-text {
     width: 36%;
     padding-right: 95px;
 }
-.depend-on-donation-image img{
+.depend-on-donation-image img {
     border-radius: 7px;
 }
 
 /* Need for survive style */
-.need-for-survive-text{
+.need-for-survive-text {
     width: 36%;
     padding-left: 95px;
+}
+
+/* Get My Updates style */
+input.email-input {
+    padding: 17px 60px 17px 22px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: #d9d9d9;
+    color: #AA9F9F;
+    font-size: 16px;
+}
+input.email-input:focus {
+    outline: none;
+}
+input.subscribe-action {
+    border: none;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 17px 33px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.subscribe-input {
+    background-color: #FFF4D6;
+    width: 31%;
+    margin: 42px auto;
+    padding: 76px 189px;
+}
+
+/* Footer Style */
+.donate-footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 30px;
+}
+.donate-footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 30px;
+}
+.donate-footer p{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
 }
