@@ -182,32 +182,36 @@ button a {
 .volunteer-groups {
     display: flex;
     width: 80%;
-    margin: 43px auto 0 auto;
+    margin: 23px auto 0;
+    justify-content: space-evenly;
 }
 
-.single-volunteer img {
-    width: 83%;
-    height: auto;
+.single-volunteer {
+    box-shadow: 4px 5px 10px #e9e7e775;
+    border-radius: 5px;
+    padding: 20px 13px;
+    margin: 10px 15px;
 }
 
-.volunteer-details {
-    width: 83%;
-    margin: auto;
+.volunteer-img {
+    width: 239px;
+    margin: 0 auto;
 }
 
-.single-volunteer h3 {
-    margin: 10px 0;
+.volunteer-img img {
+    width: 100%;
 }
 
-.single-volunteer h4 {
+.volunteer-text-content h4 {
     color: #999;
     margin: 10px 0;
     font-size: 17px;
 }
 
-.single-volunteer p {
+.volunteer-text-content p {
     color: #8b8989;
-    margin-bottom: 12px
+    margin-bottom: 20px;
+    width: 239px;
 }
 
 .fa-brands,
