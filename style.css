@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 button {
     padding: 14px 23px;
     background-color: #FF5959;
@@ -13,19 +14,23 @@ button {
     margin-top: 13px;
     border: 0;
 }
+
 button a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
+
 .container-margin {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 .title {
     font-size: 45px;
     color: #121212;
 }
+
 .paragraph-style {
     color: #8b8989;
     font-size: 18px;
@@ -36,6 +41,7 @@ button a {
 .container {
     position: relative;
 }
+
 .header-background-image {
     background-image: url("images/donation1.png");
     background-repeat: no-repeat;
@@ -43,6 +49,7 @@ button a {
     background-size: cover;
     height: 100vh;
 }
+
 .align-content {
     margin: 0;
     position: absolute;
@@ -51,15 +58,18 @@ button a {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .slide-content {
     color: #fff;
     width: 100%;
 }
+
 .slide-content h1 {
     margin: 0;
     font-weight: 700;
     font-size: 4rem;
 }
+
 .slide-content p {
     font-weight: 300;
     font-size: 17px;
@@ -74,12 +84,14 @@ button a {
     margin: 0 auto;
     text-align: center;
 }
+
 .amount-tk {
     display: flex;
     justify-content: space-between;
     width: 58%;
     margin: -15px auto;
 }
+
 .tk-style {
     font-size: 30px;
     padding: 36px 19px;
@@ -88,11 +100,13 @@ button a {
     border-radius: 5px;
     transition: .3s;
 }
+
 .tk-style:hover {
     background-color: #FFEEEE;
     color: #FF5959;
     border: 2px solid #FF5959;
 }
+
 .tk-input input[type=text] {
     width: 50%;
     height: 27px;
@@ -100,9 +114,11 @@ button a {
     border-bottom: 2px solid #DADADA;
     text-align: center;
 }
+
 .tk-input input:focus {
     outline: none;
 }
+
 ::placeholder {
     color: #B3B3B3;
     font-size: 16px;
@@ -115,21 +131,26 @@ button a {
     justify-content: space-between;
     margin-top: 50px;
 }
+
 .donate-single-plan {
     text-align: left;
     width: 27%;
     padding: 47px 26px;
     border-radius: 5px;
 }
+
 .plan-one {
     background-color: rgb(79, 157, 166, 10%);
 }
+
 .plan-two {
     background-color: rgb(255, 89, 89, 10%);
 }
+
 .plan-three {
     background-color: #FFF4D6;
 }
+
 .donatePlan-paragraph-style {
     font-size: 16px;
     color: #8b8989;
@@ -141,10 +162,12 @@ button a {
     display: flex;
     justify-content: center;
 }
+
 .depend-on-donation-text {
     width: 36%;
     padding-right: 95px;
 }
+
 .depend-on-donation-image img {
     border-radius: 7px;
 }
@@ -153,6 +176,45 @@ button a {
 .need-for-survive-text {
     width: 36%;
     padding-left: 95px;
+}
+
+/* Volunteer style */
+.volunteer-groups {
+    display: flex;
+    width: 80%;
+    margin: 43px auto 0 auto;
+}
+
+.single-volunteer img {
+    width: 83%;
+    height: auto;
+}
+
+.volunteer-details {
+    width: 83%;
+    margin: auto;
+}
+
+.single-volunteer h3 {
+    margin: 10px 0;
+}
+
+.single-volunteer h4 {
+    color: #999;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.single-volunteer p {
+    color: #8b8989;
+    margin-bottom: 12px
+}
+
+.fa-brands,
+.fab {
+    font-size: 29px;
+    color: #FF5959;
+    padding: 0 2px;
 }
 
 /* Get My Updates style */
@@ -164,9 +226,11 @@ input.email-input {
     color: #AA9F9F;
     font-size: 16px;
 }
+
 input.email-input:focus {
     outline: none;
 }
+
 input.subscribe-action {
     border: none;
     background-color: #FF5959;
@@ -177,6 +241,7 @@ input.subscribe-action {
     cursor: pointer;
     font-size: 16px;
 }
+
 .subscribe-input {
     background-color: #FFF4D6;
     width: 31%;
@@ -185,17 +250,19 @@ input.subscribe-action {
 }
 
 /* Footer Style */
-.donate-footer{
+.donate-footer {
     background-color: #0B0D17;
     text-align: center;
     padding: 30px;
 }
-.donate-footer h2{
+
+.donate-footer h2 {
     font-family: 'Lobster', cursive;
     color: #FF5959;
     font-size: 30px;
 }
-.donate-footer p{
+
+.donate-footer p {
     font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 14px;
